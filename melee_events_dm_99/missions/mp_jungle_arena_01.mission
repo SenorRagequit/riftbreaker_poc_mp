@@ -7,7 +7,7 @@ MissionDef
     localization_id     "Jungle Arena!"
 
     map_size            "3"
-    map_no_spawn_margin "0"
+    map_no_spawn_margin "1"
 
     success_action      "remove"
     failed_action       "remove"
