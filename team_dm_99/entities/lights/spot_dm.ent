@@ -1,0 +1,37 @@
+EntityBlueprint
+{
+
+	name 	"lights/spot/searchlight_mech"
+
+	SceneEditorDesc
+	{
+		mesh 		"meshes/light_spot.mesh"
+	}
+
+	LightDesc
+	{
+		type "1"
+		scattering_intensity "1"
+		//is_shadow_caster "1"
+
+		light_color
+		{
+			x "1.0"
+			y "0.9"
+			z "0.7"
+			w "7000.0"
+		}
+
+		spotlight_inner_angle
+		{
+			degree "20"
+		}
+		spotlight_outer_angle
+		{
+			degree "40"
+		}
+
+		light_range "60"
+	}
+
+}

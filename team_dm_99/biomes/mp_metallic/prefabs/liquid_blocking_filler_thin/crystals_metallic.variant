@@ -1,0 +1,5258 @@
+EntityBlueprint
+{
+	name "prefabs/liquid_blocking_filler_thin/variant/crystals_metallic"
+	components
+	base_blueprint
+	removed_components
+	children
+	{
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.610"
+						y "-0.793"
+					}
+
+					position
+					{
+						x "25.496"
+						y "0.100"
+						z "-61.491"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.021"
+							y "-0.652"
+							z "-4.051"
+						}
+
+						max
+						{
+							x "3.816"
+							y "12.011"
+							z "3.794"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.813"
+						y "0.583"
+					}
+
+					position
+					{
+						x "-5.500"
+						y "0.300"
+						z "60.669"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.510"
+						y "0.860"
+					}
+
+					position
+					{
+						x "-1.163"
+						y "0.300"
+						z "62.248"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.848"
+						y "-0.531"
+					}
+
+					position
+					{
+						x "53.501"
+						y "0.250"
+						z "8.979"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.961"
+						y "0.275"
+					}
+
+					position
+					{
+						x "59.451"
+						y "0.487"
+						z "-22.063"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.850"
+						y "0.526"
+					}
+
+					position
+					{
+						x "62.479"
+						y "0.150"
+						z "6.875"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.049"
+						y "-0.999"
+					}
+
+					position
+					{
+						x "50.447"
+						y "0.125"
+						z "62.530"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.862"
+						y "0.508"
+					}
+
+					position
+					{
+						x "-14.695"
+						y "0.125"
+						z "34.152"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.937"
+						y "-0.349"
+					}
+
+					position
+					{
+						x "-32.292"
+						y "0.125"
+						z "13.464"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.993"
+						y "0.116"
+					}
+
+					position
+					{
+						x "-61.565"
+						y "0.125"
+						z "33.191"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.771"
+						y "0.637"
+					}
+
+					position
+					{
+						x "-45.509"
+						y "0.125"
+						z "-29.276"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.277"
+						y "0.961"
+					}
+
+					position
+					{
+						x "-36.971"
+						y "0.125"
+						z "-42.110"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.876"
+						y "0.482"
+					}
+
+					position
+					{
+						x "-9.137"
+						y "0.150"
+						z "-0.204"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.677"
+						y "0.736"
+					}
+
+					position
+					{
+						x "31.535"
+						y "0.125"
+						z "-14.180"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.894"
+						y "-0.449"
+					}
+
+					position
+					{
+						x "25.540"
+						y "0.125"
+						z "4.998"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.991"
+						y "0.136"
+					}
+
+					position
+					{
+						x "-53.918"
+						y "0.200"
+						z "-20.651"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.986"
+						y "0.166"
+					}
+
+					position
+					{
+						x "-0.873"
+						y "0.150"
+						z "-6.098"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.932"
+						y "-0.363"
+					}
+
+					position
+					{
+						x "-63.025"
+						y "0.200"
+						z "-43.650"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.365"
+						y "-0.931"
+					}
+
+					position
+					{
+						x "21.192"
+						y "0.150"
+						z "22.846"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.021"
+							y "-0.652"
+							z "-4.051"
+						}
+
+						max
+						{
+							x "3.816"
+							y "12.011"
+							z "3.794"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.998"
+						y "0.067"
+					}
+
+					position
+					{
+						x "12.778"
+						y "0.200"
+						z "26.525"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.742"
+						y "-0.671"
+					}
+
+					position
+					{
+						x "32.281"
+						y "0.200"
+						z "22.862"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.248"
+						y "-0.969"
+					}
+
+					position
+					{
+						x "7.517"
+						y "0.487"
+						z "51.955"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.480"
+						y "0.877"
+					}
+
+					position
+					{
+						x "50.274"
+						y "0.487"
+						z "24.673"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.975"
+						y "0.224"
+					}
+
+					position
+					{
+						x "0.126"
+						y "0.487"
+						z "46.293"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.992"
+						y "-0.123"
+					}
+
+					position
+					{
+						x "63.061"
+						y "0.537"
+						z "44.816"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.256"
+							y "-0.698"
+							z "-4.497"
+						}
+
+						max
+						{
+							x "4.495"
+							y "10.654"
+							z "4.081"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.859"
+						y "0.511"
+					}
+
+					position
+					{
+						x "58.880"
+						y "0.050"
+						z "10.205"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.192"
+						y "0.981"
+					}
+
+					position
+					{
+						x "-19.622"
+						y "0.150"
+						z "46.954"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.573"
+						y "0.820"
+					}
+
+					position
+					{
+						x "-28.803"
+						y "0.487"
+						z "36.596"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.256"
+							y "-0.698"
+							z "-4.497"
+						}
+
+						max
+						{
+							x "4.495"
+							y "10.654"
+							z "4.081"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.459"
+						y "0.889"
+					}
+
+					position
+					{
+						x "-48.392"
+						y "0.300"
+						z "-28.342"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.734"
+						y "0.679"
+					}
+
+					position
+					{
+						x "-56.671"
+						y "0.487"
+						z "8.451"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.256"
+							y "-0.698"
+							z "-4.497"
+						}
+
+						max
+						{
+							x "4.495"
+							y "10.654"
+							z "4.081"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.854"
+						y "0.521"
+					}
+
+					position
+					{
+						x "-35.300"
+						y "0.050"
+						z "17.732"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.152"
+						y "-0.988"
+					}
+
+					position
+					{
+						x "-61.581"
+						y "0.487"
+						z "3.044"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.198"
+						y "-0.980"
+					}
+
+					position
+					{
+						x "-30.566"
+						y "0.200"
+						z "-9.494"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.598"
+							y "-0.970"
+							z "-4.569"
+						}
+
+						max
+						{
+							x "4.856"
+							y "12.920"
+							z "3.699"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.463"
+						y "-0.886"
+					}
+
+					position
+					{
+						x "-10.890"
+						y "0.050"
+						z "-35.540"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.930"
+						y "-0.368"
+					}
+
+					position
+					{
+						x "-17.911"
+						y "0.050"
+						z "-41.721"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.938"
+						y "0.346"
+					}
+
+					position
+					{
+						x "4.903"
+						y "0.200"
+						z "-44.031"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.594"
+							y "-0.434"
+							z "-2.184"
+						}
+
+						max
+						{
+							x "2.151"
+							y "5.810"
+							z "1.917"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.280"
+						y "0.960"
+					}
+
+					position
+					{
+						x "22.669"
+						y "0.150"
+						z "-39.353"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.163"
+						y "0.987"
+					}
+
+					position
+					{
+						x "36.800"
+						y "0.487"
+						z "-31.793"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.654"
+							y "-0.482"
+							z "-1.627"
+						}
+
+						max
+						{
+							x "1.839"
+							y "5.753"
+							z "1.908"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.714"
+						y "-0.701"
+					}
+
+					position
+					{
+						x "-49.975"
+						y "0.687"
+						z "54.604"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.990"
+						y "-0.144"
+					}
+
+					position
+					{
+						x "-11.646"
+						y "0.412"
+						z "-58.497"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.973"
+						y "-0.232"
+					}
+
+					position
+					{
+						x "-17.589"
+						y "0.789"
+						z "-31.241"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.930"
+						y "-0.368"
+					}
+
+					position
+					{
+						x "-47.902"
+						y "0.761"
+						z "-13.252"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.655"
+						y "0.756"
+					}
+
+					position
+					{
+						x "1.764"
+						y "0.761"
+						z "53.657"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.229"
+						y "0.973"
+					}
+
+					position
+					{
+						x "1.907"
+						y "0.412"
+						z "45.568"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.781"
+						y "0.625"
+					}
+
+					position
+					{
+						x "1.417"
+						y "0.761"
+						z "-7.352"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.998"
+						y "-0.065"
+					}
+
+					position
+					{
+						x "-2.900"
+						y "0.412"
+						z "-14.723"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.756"
+						y "0.655"
+					}
+
+					position
+					{
+						x "1.423"
+						y "0.761"
+						z "0.636"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.983"
+						y "-0.185"
+					}
+
+					position
+					{
+						x "-11.870"
+						y "0.789"
+						z "-3.503"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.999"
+						y "-0.044"
+					}
+
+					position
+					{
+						x "-44.629"
+						y "0.789"
+						z "4.309"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.269"
+						y "0.963"
+					}
+
+					position
+					{
+						x "-55.453"
+						y "0.412"
+						z "13.000"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.368"
+						y "0.930"
+					}
+
+					position
+					{
+						x "-35.659"
+						y "0.412"
+						z "-6.912"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.955"
+						y "0.296"
+					}
+
+					position
+					{
+						x "-58.448"
+						y "0.761"
+						z "35.579"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.998"
+						y "-0.064"
+					}
+
+					position
+					{
+						x "-44.105"
+						y "0.789"
+						z "42.361"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.943"
+						y "-0.334"
+					}
+
+					position
+					{
+						x "7.668"
+						y "0.761"
+						z "44.692"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						y "-0.018"
+					}
+
+					position
+					{
+						x "21.391"
+						y "0.761"
+						z "7.352"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.505"
+						y "-0.863"
+					}
+
+					position
+					{
+						x "30.288"
+						y "0.412"
+						z "-13.648"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.298"
+						y "-0.955"
+					}
+
+					position
+					{
+						x "23.726"
+						y "0.789"
+						z "-42.662"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.843"
+						y "0.539"
+					}
+
+					position
+					{
+						x "20.672"
+						y "0.761"
+						z "-23.574"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.761"
+						y "-0.649"
+					}
+
+					position
+					{
+						x "47.055"
+						y "0.789"
+						z "-21.516"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.030"
+						y "1.000"
+					}
+
+					position
+					{
+						x "59.486"
+						y "0.789"
+						z "1.838"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.158"
+						y "-0.987"
+					}
+
+					position
+					{
+						x "52.707"
+						y "0.761"
+						z "5.133"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.826"
+						y "-0.564"
+					}
+
+					position
+					{
+						x "39.402"
+						y "0.761"
+						z "-33.322"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.263"
+						y "-0.965"
+					}
+
+					position
+					{
+						x "60.962"
+						y "0.761"
+						z "-44.995"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.803"
+						y "-0.597"
+					}
+
+					position
+					{
+						x "47.085"
+						y "0.789"
+						z "-58.472"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.980"
+						y "0.201"
+					}
+
+					position
+					{
+						x "-40.178"
+						y "0.412"
+						z "60.526"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.852"
+						y "0.524"
+					}
+
+					position
+					{
+						x "-33.167"
+						y "0.789"
+						z "19.091"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.526"
+						y "0.850"
+					}
+
+					position
+					{
+						x "43.590"
+						y "0.412"
+						z "-0.385"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.921"
+						y "-0.388"
+					}
+
+					position
+					{
+						x "3.508"
+						y "0.789"
+						z "15.879"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.752"
+						y "0.660"
+					}
+
+					position
+					{
+						x "-16.638"
+						y "0.412"
+						z "4.355"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.738"
+						y "0.675"
+					}
+
+					position
+					{
+						x "2.394"
+						y "0.789"
+						z "46.070"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.397"
+						y "0.918"
+					}
+
+					position
+					{
+						x "-8.804"
+						y "0.412"
+						z "37.133"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.751"
+						y "0.660"
+					}
+
+					position
+					{
+						x "40.469"
+						y "0.789"
+						z "45.551"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.973"
+						y "-0.232"
+					}
+
+					position
+					{
+						x "59.151"
+						y "0.789"
+						z "-16.595"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.165"
+						y "0.986"
+					}
+
+					position
+					{
+						x "19.869"
+						y "0.789"
+						z "-43.847"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.998"
+						y "-0.057"
+					}
+
+					position
+					{
+						x "-39.084"
+						y "0.789"
+						z "-45.669"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.039"
+						y "-0.999"
+					}
+
+					position
+					{
+						x "46.733"
+						y "0.789"
+						z "-13.529"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.146"
+						y "-0.990"
+					}
+
+					position
+					{
+						x "-60.643"
+						y "0.789"
+						z "-45.608"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.231"
+						y "0.973"
+					}
+
+					position
+					{
+						x "38.211"
+						y "0.761"
+						z "62.863"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.024"
+						y "1.000"
+					}
+
+					position
+					{
+						x "-11.432"
+						y "0.789"
+						z "-42.548"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.983"
+						y "0.185"
+					}
+
+					position
+					{
+						x "-40.096"
+						y "0.761"
+						z "-38.487"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.233"
+						y "0.972"
+					}
+
+					position
+					{
+						x "59.824"
+						y "0.761"
+						z "46.529"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.499"
+						y "-0.867"
+					}
+
+					position
+					{
+						x "-11.146"
+						y "0.761"
+						z "-38.495"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.598"
+						y "-0.802"
+					}
+
+					position
+					{
+						x "-60.487"
+						y "0.412"
+						z "13.212"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.996"
+						y "-0.095"
+					}
+
+					position
+					{
+						x "27.918"
+						y "0.789"
+						z "8.759"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.761"
+						y "0.649"
+					}
+
+					position
+					{
+						x "17.639"
+						y "0.761"
+						z "20.435"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.091"
+						y "0.996"
+					}
+
+					position
+					{
+						x "40.319"
+						y "0.761"
+						z "27.032"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.315"
+						y "0.949"
+					}
+
+					position
+					{
+						x "56.802"
+						y "0.412"
+						z "53.326"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.672"
+						y "-0.741"
+					}
+
+					position
+					{
+						x "22.566"
+						y "0.412"
+						z "-27.326"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.938"
+						y "0.347"
+					}
+
+					position
+					{
+						x "-1.311"
+						y "0.761"
+						z "39.927"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.146"
+							y "-0.360"
+							z "-1.309"
+						}
+
+						max
+						{
+							x "1.161"
+							y "2.546"
+							z "1.301"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.728"
+						y "0.686"
+					}
+
+					position
+					{
+						x "-0.178"
+						y "0.789"
+						z "-58.148"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_03"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_03"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-1.032"
+							y "-0.403"
+							z "-0.920"
+						}
+
+						max
+						{
+							x "1.077"
+							y "2.194"
+							z "1.082"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.810"
+						y "0.588"
+					}
+
+					position
+					{
+						x "-25.727"
+						y "0.412"
+						z "24.315"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.466"
+						y "0.885"
+					}
+
+					position
+					{
+						x "25.030"
+						y "0.761"
+						z "54.167"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.129"
+						y "0.991"
+					}
+
+					position
+					{
+						x "-43.218"
+						y "0.761"
+						z "-31.862"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "-0.994"
+						y "-0.110"
+					}
+
+					position
+					{
+						x "-9.273"
+						y "0.761"
+						z "0.038"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.215"
+						y "0.977"
+					}
+
+					position
+					{
+						x "-27.707"
+						y "0.761"
+						z "-14.923"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.918"
+						y "0.397"
+					}
+
+					position
+					{
+						x "-15.140"
+						y "0.761"
+						z "49.388"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_small_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_small_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-0.945"
+							y "-0.298"
+							z "-0.872"
+						}
+
+						max
+						{
+							x "0.866"
+							y "2.712"
+							z "0.871"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.868"
+						y "-0.496"
+					}
+
+					position
+					{
+						x "-46.989"
+						y "0.761"
+						z "-59.527"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_medium_02"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_medium_02"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-2.243"
+							y "-0.533"
+							z "-1.996"
+						}
+
+						max
+						{
+							x "2.271"
+							y "5.856"
+							z "2.160"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.729"
+						y "0.684"
+					}
+
+					position
+					{
+						x "29.726"
+						y "0.175"
+						z "47.287"
+					}
+
+				}
+
+			}
+
+		}
+
+		EntityTemplate
+		{
+			base_blueprint "props/crystals/metal_big_01"
+			components
+			{
+				BlueprintDesc
+				{
+					blueprint "props/crystals/metal_big_01"
+				}
+
+				LocalAabbDesc
+				{
+					local_aabb
+					{
+						min
+						{
+							x "-4.256"
+							y "-0.698"
+							z "-4.497"
+						}
+
+						max
+						{
+							x "4.495"
+							y "10.654"
+							z "4.081"
+						}
+
+					}
+
+				}
+
+				TransformComponent
+				{
+					orientation
+					{
+						w "0.998"
+						y "0.067"
+					}
+
+					position
+					{
+						x "21.304"
+						y "0.200"
+						z "-45.742"
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+

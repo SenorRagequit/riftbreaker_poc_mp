@@ -1,0 +1,121 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/metallic/black_red_ground_01"
+		String "ground/metallic/metallic_ground_01"
+		String "ground/metallic/metallic_ground_06"
+		String "ground/metallic/metallic_tech_floor"
+		String "ground/metallic/metallic_veins"
+		String "ground/metallic/organic_ground_06"
+		String "ground/metallic/organic_ground_07"
+		String "ground/metallic/rocks_debris_01"
+	}
+
+	is_hidden "0"
+	fixed_rotation
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "0.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "1.000"
+				y "0.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "-1.000"
+				y "0.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "-1.000"
+				y "-1.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "-1.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "1.000"
+				y "-1.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "1.000"
+				y "1.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "1.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "-1.000"
+				y "1.000"
+			}
+
+		}
+
+	}
+
+}
+

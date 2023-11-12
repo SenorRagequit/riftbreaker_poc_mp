@@ -1,0 +1,11 @@
+BUTTON_resume_game          ""
+BUTTON_restart              ""
+BUTTON_help_and_options     "gui/menu/help_and_options"
+#ifdef win
+    BUTTON_mod_management   "gui/menu/mod_management"
+#endif
+
+BUTTON_main_menu            ""
+#ifdef win
+    BUTTON_exit_game            ""
+#endif

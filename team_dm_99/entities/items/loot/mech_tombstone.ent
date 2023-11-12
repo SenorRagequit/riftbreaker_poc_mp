@@ -1,0 +1,189 @@
+
+EntityBlueprint
+{
+	name "items/loot/mech_tombstone_item"
+
+    InventoryItemDesc
+    {
+        name            "misc/mech_tombstone"
+        bigger_icon		"gui/hud/resource_icons/mech_tombstone_icon_bigger"
+		item_bp         "items/loot/mech_tombstone"
+        type            "loot"
+        add_quality     "0"
+    }
+
+    LuaDesc
+    {
+		script "lua/items/misc/resource_giver.lua"
+
+        database
+        {
+            check_fitting       int:"0"
+        }
+    }
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"dynamic"
+				group_id 			"loot"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsBoxShape
+					{
+						x 	"1.0"
+						y 	"0.25"
+						z 	"0.8"
+
+						position 
+						{
+							x "0.0"
+							y "0.25"
+							z "0.0"
+						}							
+					}				
+				}
+				mass 		"380"				
+			}
+		}
+	}
+}
+
+EntityBlueprint
+{
+	name "items/loot/mech_tombstone"
+
+	MeshDesc
+	{
+		mesh "meshes/items/loot/mech_tombstone.mesh"
+		material "items/loot/mech_tombstone"
+	}
+	
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/items/tombstone_pickup"	
+					offset "0 2 0"						
+				}
+			}
+		}
+        EffectGroup
+        {
+            enabled "1"
+			group 	"light"
+            Effects
+            {
+                Effect
+                {
+                    blueprint "lights/props/loot_container_small_violet"
+					offset "0 4 0"
+                }				
+            }
+        }
+		EffectGroup
+		{
+			group "container"
+			enabled "1"
+
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/items/tombstone_pickup_idle"
+					offset "0 1 0"
+				}
+			}
+		}		
+	}	
+	
+	MinimapItemDesc
+	{
+		type	"quad"
+		color
+		{
+			x "0.65"
+			y "0"
+			z "1"
+			w "1"
+		}
+		size
+		{
+			x "2"
+			y "2"
+		}
+
+		visibility "radar"
+	}	
+
+}
+
+EntityBlueprint
+{
+	name "items/loot/mech_tombstone_empty"
+
+}
+EntityBlueprint
+{
+	name "items/loot/mech_tombstone_empty_item"
+
+    InventoryItemDesc
+    {
+        name            "misc/mech_tombstone"
+        bigger_icon		"gui/hud/resource_icons/mech_tombstone_icon_bigger"
+		item_bp         "items/loot/mech_tombstone_empty"
+        type            "loot"
+        add_quality     "0"
+    }
+
+    LuaDesc
+    {
+		script "lua/items/misc/resource_giver.lua"
+        
+        database
+        {
+            check_fitting       int:"0"
+        }
+    }
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"dynamic"
+				group_id 			"loot"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsBoxShape
+					{
+						x 	"1.0"
+						y 	"0.25"
+						z 	"0.8"
+
+						position 
+						{
+							x "0.0"
+							y "0.25"
+							z "0.0"
+						}							
+					}				
+				}
+				mass 		"380"				
+			}
+		}
+	}
+}

@@ -1,0 +1,254 @@
+EntityBlueprint
+{
+	name "resources/ammo_mech_energy_cell"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_mech_energy_cell
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_mech_energy"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_energy_icon_bigger"	
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_mech_explosive"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_mech_explosive
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_mech_explosive"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_explosive_icon_bigger"	
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_mech_high_caliber"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_mech_high_caliber
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_mech_high_caliber"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_high_caliber_icon_bigger"
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_mech_liquid"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_mech_liquid
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_mech_liquid"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_liquid_icon_bigger"
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_mech_low_caliber"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_mech_low_caliber
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_mech_low_caliber"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_low_caliber_icon_bigger"
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_tower_explosive"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_tower_explosive
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_tower_explosive"
+		bigger_icon		"gui/hud/resource_icons/ammo_tower_explosive_icon_bigger"	
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_tower_high_caliber"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_tower_high_caliber
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_tower_high_caliber"
+		bigger_icon		"gui/hud/resource_icons/ammo_tower_high_caliber_icon_bigger"
+		add_quality "0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_tower_liquid"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_tower_liquid
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_tower_liquid"
+		bigger_icon		"gui/hud/resource_icons/ammo_tower_liquid_icon_bigger"
+		add_quality "0"
+	}
+
+	
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_tower_low_caliber"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_tower_low_caliber
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name "resource_name/ammo_tower_low_caliber"
+		bigger_icon		"gui/hud/resource_icons/ammo_tower_low_caliber_icon_bigger"
+		add_quality "0"
+	}
+}
+
+////////////// DEATHMATCH AMMO /////////////
+EntityBlueprint
+{
+	name "resources/ammo_dm_bouncing_blades"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_dm_bouncing_blades
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name 			"resource_name/ammo_dm_bouncing_blades"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_high_caliber_icon_bigger"
+		add_quality 	"0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_dm_minigun"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_dm_minigun
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name 			"resource_name/ammo_dm_minigun"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_low_caliber_icon_bigger"
+		add_quality 	"0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_dm_grenade_launcher"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_dm_grenade_launcher
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name 			"resource_name/ammo_dm_grenade_launcher"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_explosive_icon_bigger"
+		add_quality 	"0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_dm_railgun"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_dm_railgun
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name 			"resource_name/ammo_dm_railgun"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_energy_icon_bigger"
+		add_quality 	"0"
+	}
+}
+
+EntityBlueprint
+{
+	name "resources/ammo_dm_acid_spitter"
+
+	ResourceComponent
+	{
+		type_produced 	ammo_dm_acid_spitter
+		initial_amount	1		
+	}
+
+	InventoryItemDesc
+	{
+		name 			"resource_name/ammo_dm_acid_spitter"
+		bigger_icon		"gui/hud/resource_icons/ammo_mech_liquid_icon_bigger"
+		add_quality 	"0"
+	}
+}

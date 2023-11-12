@@ -1,0 +1,88 @@
+EntityBlueprint
+{ 
+	name "items/consumables/heal_dm_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"gui/menu/inventory/consumable_name/heal_dm"
+		icon					"gui/hud/items_icons/consumables/repair"
+		bigger_icon 			"gui/menu/items_icons/consumables/repair"		
+		description 			"gui/menu/inventory/consumable_description/heal_dm"	
+		item_bp		            "items/consumables/heal_dm"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/heal_dm.lua"
+		
+		database
+		{
+			amount				float:"75"
+		}
+	}
+
+	CostDesc
+
+	ItemStatComponent
+	{
+		stats
+		{
+			ItemStat
+			{
+				name  "gui/menu/inventory/stat_name/repair_amount"
+				value "75"
+				icon  ""
+				percent "1"
+			}
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/items/potion"							
+				}
+				Effect
+				{
+					blueprint "effects/items/pickup_green"							
+				}				
+			}
+		}	
+	}
+	
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/heal_dm"
+
+    MeshDesc
+    {
+        mesh 		"meshes/items/consumables/health.mesh"
+		material 	"items/consumables/health"
+    }
+	
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/health_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}
+
+}
