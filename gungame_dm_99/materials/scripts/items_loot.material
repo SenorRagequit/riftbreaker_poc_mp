@@ -1,0 +1,12 @@
+import * from "materials/scripts/pbr.material"
+
+material items/loot/mech_tombstone : pbr/default
+{
+    set_texture_alias albedo            materials/textures/items/loot/mech_tombstone_albedo.dds
+    set_texture_alias normal            materials/textures/items/loot/mech_tombstone_normal.dds
+    set_texture_alias packed            materials/textures/items/loot/mech_tombstone_packed.dds
+    set_texture_alias emissive          materials/textures/items/loot/mech_tombstone_emissive.dds
+    set_texture_alias gradient          materials/textures/gradient/pulsing02.dds 60 2
+
+    glow 38
+} 

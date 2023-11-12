@@ -1,0 +1,52 @@
+EntityBlueprint
+{ 
+	name "items/consumables/overcharge_dm_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"gui/menu/inventory/consumable_name/overcharge_dm"
+		icon			        "gui/hud/items_icons/skills/generator_overcharge"
+		bigger_icon 	        "gui/menu/items_icons/skills/generator_overcharge"	
+		description 			"gui/menu/inventory/consumable_description/heal_dm"	
+		item_bp		            "items/consumables/overcharge_dm"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/overcharge_dm.lua"
+		
+		database
+		{
+			heal_amount				float:"50"
+		}
+	}
+
+	CostDesc
+
+	ItemStatComponent
+	{
+		stats
+		{
+			ItemStat
+			{
+				name  "gui/menu/inventory/stat_name/repair_amount"
+				value "25"
+				icon  ""
+				percent "1"
+			}
+		}
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/overcharge_dm"
+
+    MeshDesc
+    {
+        mesh 		"meshes/items/consumables/shield.mesh"
+		material 	"items/consumables/shield"
+    }
+
+}

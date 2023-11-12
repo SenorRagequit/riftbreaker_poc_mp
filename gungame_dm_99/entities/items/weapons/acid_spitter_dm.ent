@@ -1,0 +1,35 @@
+EntityBlueprint
+{
+	name  "items/weapons/acid_spitter_item"
+
+	InventoryItemDesc
+	{
+		type 			"range_weapon"
+		subtype			"liquid"
+		holding_pose 	"range"
+		name 			"gui/menu/inventory/weapon_name/acid_spitter"
+		item_bp			"items/weapons/acid_spitter"
+		icon			"gui/hud/items_icons/weapons/acid_spitter"
+		bigger_icon 	"gui/menu/items_icons/weapons/acid_spitter"
+		//description 	"gui/menu/inventory/weapon_charge_description/acid_spitter"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/weapons/grenade_weapon.lua"
+
+		database
+		{
+			bp						string:"items/consumables/grenade"
+			aim_bp					string:"effects/weapons_generic/mech_acid_spitter_target_marker"
+			pad_equipped_feedback 	string:"weapon,2,4,8"
+			max_distance            float:"25.0"
+		}
+	}
+
+	WeaponItemDesc
+	{
+	}
+
+	CostDesc
+}

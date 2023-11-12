@@ -1,0 +1,82 @@
+CampaignDef
+{
+	campaign_type				"multiplayer"
+    startup_mission_def         "mp_jungle_arena_01"
+	startup_mission_name		"Deathmatch Arena"
+
+	preview_material			"gui/menu/campaign_prev/gungame_prev"
+
+	mission_list			
+	{
+		mp_jungle_arena_01
+		mp_magma_lakes
+		mp_metallic_alien_base
+	}
+	
+	continue_disabled			 "1"
+	discoverable_system_enabled	 "0"
+	support_difficulty			 "0"
+	
+	rich_presence				 "rich_presence_4"
+
+	disabled_pause_screens	 	 "journal,bestiary,planetary_scanner,crafting,research,statistics,inventory"
+
+	campaign_options
+	{
+		CampaignCustomOption
+		{
+			name 		"warmup_duration"
+			type 		"float"
+
+			localization "gui/menu/difficulty/warmup_duration"
+
+			value 		"60.0"
+			values 		"0,30,300" // min,step,max
+		}
+
+		CampaignCustomOption
+		{
+			name 		"game_duration"
+			type 		"float"
+
+			localization "gui/menu/difficulty/mission_duration"
+
+			value 		"600.0"
+			values 		"0,30,1200" // min,step,max
+		}
+
+		CampaignCustomOption
+		{
+			name 		"frag_limit"
+			type 		"int"
+
+			localization "gui/menu/multiplayer/options/frag_limit"
+
+			value 		"20"
+			values 		"0,5,100"	// min,step,max
+		}
+
+		
+		CampaignCustomOption
+		{
+			name 		"max_reward_level"
+			type 		"int"
+
+			localization "Maximum reward level"
+
+			value 		"4"
+			values 		"1,1,4" 	// min,step,max
+		}
+		
+		CampaignCustomOption
+		{
+			name 		"min_player_for_start"
+			type 		"int"
+
+			localization "Minimum amount of players required for game start"
+
+			value 		"2"
+			values 		"2,1,10" 	// min,step,max
+		}
+	}
+}

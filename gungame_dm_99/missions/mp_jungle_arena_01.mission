@@ -1,0 +1,112 @@
+MissionDef
+{
+    logic               "logic/missions/mp_jungle_arena_01.logic"
+    player_spawn_logic  "logic/loadout/mp_jungle_arena_01.logic"
+
+    script              "lua/missions/mp_deathmatch.lua"
+    localization_id     "Jungle Arena!"
+
+    map_size            "3"
+    map_no_spawn_margin "0"
+
+    success_action      "remove"
+    failed_action       "remove"
+
+    biomes              "mp_jungle"
+    preview_material       "gui/menu/mission_prev/mp_jungle_arena_01_prev"
+
+	source_tiles
+    {
+		  biomes/mp_jungle/tiles/mp_jungle_arena_01/mp_jungle_arena_01.tile
+    }
+    
+	mission_object_spawners
+	{
+        //MarkerBlueprintSpawner
+        //{
+        //    spawn_pool               "weapons"
+//
+        //    // find all entities on map with this blueprint as possible spawn point
+        //    spawn_at_marker          "logic/spawn_item"
+//
+        //    spawn_blueprints
+        //    {
+        //        spawners/item_spawner
+        //        {
+        //           database
+        //           {
+        //            	blueprint		string:"items/weapons/atom_bomb_item,items/weapons/burst_rifle_item,items/weapons/bouncing_blades_item,items/weapons/laser_sword_item,items/weapons/laser_item,items/weapons/railgun_item,items/weapons/rocket_launcher_item,items/weapons/shotgun_item,items/weapons/small_machinegun_item,items/weapons/sniper_rifle_item,items/weapons/sonic_fist_item,items/weapons/spear_item,items/weapons/swarm_missiles_item,items/weapons/blaster_item,items/weapons/minigun_item"
+		//              cooldown		float:"30"
+		//              ammo_count		int:"2"
+        //           }
+        //        }
+        //    }
+        //}
+
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "weapons"
+
+            // ammo spawn
+            spawn_at_marker          "logic/spawn_item"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner
+                {
+                   database
+                   {
+                    	blueprint		string:"items/consumables/ammo_dm_bouncing_blades_item,items/consumables/ammo_dm_minigun_item,items/consumables/ammo_dm_grenade_launcher_item,items/consumables/ammo_dm_railgun_item,items/consumables/ammo_dm_acid_spitter_item"
+						cooldown		float:"15"                        
+						cooldown.players_steps  string:"5:15,10:10,15:5"
+                   }
+                }
+            }
+        }
+
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "health"
+
+            // health pickup spawn
+            spawn_at_marker          "logic/spawn_health_item"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner_health
+                {
+                   database
+                   {
+                    		blueprint		string:"items/consumables/heal_dm_item"
+		                    cooldown		float:"40"
+                            cooldown.players_steps  string:"5:40,10:30,15:20"
+
+                   }
+                }
+            }
+        }
+		
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "shields"
+
+            // shild boost pickup spawn
+            spawn_at_marker          "logic/spawn_shield_boost_small_item"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner_small
+                {
+                   database
+                   {
+                    		blueprint		string:"items/consumables/shield_boost_small_dm_item"
+		                    cooldown		float:"25"
+                            cooldown.players_steps  string:"5:25,10:15,15:10"
+
+                   }
+                }
+            }
+        }
+        
+    }
+}

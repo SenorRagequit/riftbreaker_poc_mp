@@ -1,0 +1,85 @@
+EntityBlueprint
+{
+	name  "effects/mech/death"
+
+	base_blueprints
+	{
+		 lights/point/mech_death
+		 effects/default
+	}
+
+	//BombAmmoComponent
+	//{		
+	//	DamagePattern
+	//	{
+	//		area_damage_radius	"10"
+	//		area_damage_speed 	"30"
+	//
+	//		Damages
+	//		{
+	//			Damage
+	//			{
+	//				value 			"2000"
+	//				type			"area"
+	//			}
+	//		}
+	//	}
+	//}
+
+	ShockWaveDesc
+	{
+		power 	"5000"
+		speed 	"30"
+		radius 	"50"
+	}
+
+	ParticleDesc
+	{
+		name    "rift/mech_death_01"
+	}
+
+	CameraShakeDesc
+	{
+		duration 		"1"
+		power   		"1"
+		falloff_radius 	"40"
+		radius   		"60"
+		frequency 		"15"
+		group			"explosion_big"
+	}
+
+	SoundDesc
+	{
+		name "items/weapons/explosive/explosion_medium"
+	}
+
+	DecalDesc
+	{	
+		blueprint "effects/decals/explosion_hole_big_01"
+		scale
+		{
+			x		1.0
+			y		1.0
+			z		1.0	
+		}
+	}
+
+	//TimeWarpDesc
+	//{
+	//	desaturation	"0.4"
+	//	contrast   		"1.0"
+	//	brightness		"1.0"
+	//	bloom_scale		"1.0"
+	//	time_factor		"0.3"
+	//	
+	//	delay			"0.1"
+	//	fade_in_time	"0.3"
+	//	fade_out_time	"1.9"
+	//	duration		"5.5"
+	//}
+	
+	children
+	{
+		EntityBlueprint "lights/point/mech_death_no_shadow"
+	}	
+}
