@@ -1,0 +1,67 @@
+MissionDef
+{
+    logic               "logic/missions/mp_jungle_arena_01.logic"
+    player_spawn_logic  "logic/loadout/mp_jungle_arena_01.logic"
+
+    script              "lua/missions/mp_deathmatch.lua"
+    localization_id     "Alien Base!"
+
+    map_size            "3"
+    map_no_spawn_margin "0"
+
+    biomes              "mp_metallic"
+    preview_material       "gui/menu/mission_prev/mp_metallic_alien_base_prev"
+
+    success_action      "recreate"
+    failed_action       "recreate"
+    
+	source_tiles
+    {
+		  biomes/mp_metallic/tiles/mp_metallic_alien_base/mp_metallic_alien_base.tile
+    }
+    
+	mission_object_spawners
+	{
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "health"
+
+            // health pickup spawn
+            spawn_at_marker          "logic/spawn_health_item"
+			ignore_excluded_cells_check "1"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner
+                {
+                   database
+                   {
+                    		blueprint		string:"items/consumables/heal_dm_item"
+		                    cooldown		float:"40"
+                   }
+                }
+            }
+        }
+		
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "shields"
+
+            // shild boost pickup spawn
+            spawn_at_marker          "logic/spawn_shield_boost_small_item"
+			ignore_excluded_cells_check "1"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner_small
+                {
+                   database
+                   {
+                    		blueprint		string:"items/consumables/shield_boost_small_dm_item"
+		                    cooldown		float:"25"
+                   }
+                }
+            }
+        }
+    }
+}

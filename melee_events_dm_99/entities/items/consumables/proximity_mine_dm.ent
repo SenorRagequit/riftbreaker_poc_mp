@@ -1,0 +1,124 @@
+EntityBlueprint
+{
+	name "items/consumables/proximity_mine_base"
+
+	HealthDesc
+	{
+		max_health 					"5"
+		health 						"5"
+		is_manual					"1"
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/items/consumables/proximity_mine.mesh"
+		material "items/consumables/proximity_mine"
+	}
+
+	LifeTimeDesc
+	{
+		time 		30
+	}
+
+	TypeDesc
+	{
+		type "prop"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/projectiles/mine"
+	}
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"static"
+				group_id 			"building_small"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsSphereShape
+					{
+						r "1"
+					}	
+				}
+			}
+		}
+	}
+
+	TriggerDesc
+	{
+		owner 		"self"
+		collision 	"ground_unit"
+		type		"GRID"
+
+		Filters
+		{
+			TeamRelationTriggerFilter
+			{
+				relation_name     "hostility"
+				check_parent "0"
+			}
+
+			ComponentTriggerFilter
+			{
+				component_name		"AirGroundNavigationComponent"
+			}
+		}
+
+		Shapes
+		{
+			PhysicsSphereShape
+			{
+				r "5"
+			}
+		}
+	}
+
+	TerrainAffectedComponent
+	{
+		name "mine"
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			enabled "1"
+			group "mine_unarmed"
+
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/items/mech_mine_placed"
+					bone "att_light"
+				}
+				Effect
+				{
+					blueprint "effects/items/mech_mine_beacon_armed"
+					bone "att_light"
+					delay "2"
+				}				
+			}
+		}
+		EffectGroup
+		{
+			enabled "0"
+			group	"mine_armed"
+
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/items/mech_mine_beacon_activated"
+					bone "att_light"
+				}
+			}
+		}
+	}
+}

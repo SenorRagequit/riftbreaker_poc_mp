@@ -1,0 +1,70 @@
+MissionDef
+{
+    logic               "logic/missions/mp_jungle_arena_01.logic"
+    player_spawn_logic  "logic/loadout/mp_jungle_arena_01.logic"
+
+    script              "lua/missions/mp_deathmatch.lua"
+    localization_id     "Jungle Arena!"
+
+    map_size            "3"
+    map_no_spawn_margin "0"
+
+    success_action      "remove"
+    failed_action       "remove"
+
+    biomes              "mp_jungle"
+    preview_material       "gui/menu/mission_prev/mp_jungle_arena_01_prev"
+
+	source_tiles
+    {
+		  biomes/mp_jungle/tiles/mp_jungle_arena_01/mp_jungle_arena_01.tile
+    }
+    
+	mission_object_spawners
+	{
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "health"
+
+            // health pickup spawn
+            spawn_at_marker          "logic/spawn_health_item"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner_health
+                {
+                   database
+                   {
+                    		blueprint		string:"items/consumables/heal_dm_item"
+		                    cooldown		float:"40"
+                            cooldown.players_steps  string:"5:40,10:30,15:20"
+
+                   }
+                }
+            }
+        }
+		
+		
+        MarkerBlueprintSpawner
+        {
+            spawn_pool               "shields"
+
+            // shild boost pickup spawn
+            spawn_at_marker          "logic/spawn_shield_boost_small_item"
+
+            spawn_blueprints
+            {
+                spawners/item_spawner_small
+                {
+                   database
+                   {
+                    		blueprint		string:"items/consumables/shield_boost_small_dm_item"
+		                    cooldown		float:"25"
+                            cooldown.players_steps  string:"5:25,10:15,15:10"
+
+                   }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,262 @@
+//editor "scroll(537.60,1762.06)|zoom(1.00)"
+FlowGraphTemplate
+{
+	version "13"
+	editor "5682"
+	GraphNodes
+	{
+		LuaBehaviourNode
+		{
+			//editor "layout(event_start.xml)|pos(243,2151)"
+			database
+			{
+				Integers
+				{
+					IntData
+					{
+						key "rule_headquarters_survive"
+						value "1"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/mission_state/event_start.lua"
+			self_id "default"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_and_equip_item.xml)|pos(779,1831)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "item"
+						value "items/weapons/laser_sword_item"
+					}
+
+					StringData
+					{
+						key "hand"
+						value "LEFT_HAND"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/entity/entity_add_and_equip_item.lua"
+			self_id "entity_add_and_equip_item_12"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_and_equip_item.xml)|pos(780,1950)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "item"
+						value "items/weapons/laser_sword_item"
+					}
+
+					StringData
+					{
+						key "hand"
+						value "RIGHT_HAND"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/entity/entity_add_and_equip_item.lua"
+			self_id "entity_add_and_equip_item_22"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_and_equip_item.xml)|pos(768,2327)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "item"
+						value "items/skills/dodge_roll_item"
+					}
+
+					StringData
+					{
+						key "hand"
+						value "DASH_SKILL"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/entity/entity_add_and_equip_item.lua"
+			self_id "entity_add_and_equip_item_19"
+		}
+
+		EndFlowGraphNode
+		{
+			//editor "layout(event_end.xml)|pos(4670,2283)"
+			script "lua/graph/mission_state/event_end.lua"
+			self_id "event_end_1"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_and_equip_item.xml)|pos(1327,2498)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "item"
+						value "items/consumables/barricade_advanced_item"
+					}
+
+					StringData
+					{
+						key "hand"
+						value "USABLE_2"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/entity/entity_add_and_equip_item.lua"
+			self_id "entity_add_and_equip_item_3"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_clear_new_items_marks.xml)|pos(4192,2273)"
+			script "lua/graph/entity/entity_clear_new_items_marks.lua"
+			self_id "entity_clear_new_items_marks_0"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_and_equip_item.xml)|pos(771,2495)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "item"
+						value "items/skills/emergency_explosion_advanced_item"
+					}
+
+					StringData
+					{
+						key "hand"
+						value "USABLE_1"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/entity/entity_add_and_equip_item.lua"
+			self_id "entity_add_and_equip_item_8"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(audio_music_change_playlist.xml)|pos(1114,1549)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "music_list"
+						value "music/fighting"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/audio/audio_music_change_playlist.lua"
+			self_id "audio_music_change_playlist_1"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(audio_adaptive_music_system.xml)|pos(768,1550)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "status"
+						value "false"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/audio/audio_adaptive_music_system.lua"
+			self_id "audio_adaptive_music_system_1"
+		}
+
+		LuaBehaviourNode
+		{
+			//editor "layout(entity_add_and_equip_item.xml)|pos(3005,2495)"
+			database
+			{
+				Strings
+				{
+					StringData
+					{
+						key "item"
+						value "items/skills/antimatter_ball_advanced_item"
+					}
+
+					StringData
+					{
+						key "hand"
+						value "USABLE_3"
+					}
+
+				}
+
+			}
+
+			script "lua/graph/entity/entity_add_and_equip_item.lua"
+			self_id "entity_add_and_equip_item_11"
+		}
+
+	}
+
+	GraphConnections
+	{
+		audio_adaptive_music_system_1 "audio_music_change_playlist_1"
+		default "audio_adaptive_music_system_1|entity_add_and_equip_item_1|entity_add_and_equip_item_12|entity_add_and_equip_item_19|entity_add_and_equip_item_22|entity_add_and_equip_item_8"
+		entity_add_and_equip_item_11 "entity_clear_new_items_marks_0"
+		entity_add_and_equip_item_19 "entity_clear_new_items_marks_0"
+		entity_add_and_equip_item_3 "entity_add_and_equip_item_11"
+		entity_add_and_equip_item_8 "entity_add_and_equip_item_3"
+		entity_clear_new_items_marks_0 "event_end_1"
+	}
+
+	GraphComments
+}
+

@@ -1,0 +1,21 @@
+import * from "materials/scripts/gui.material"
+
+material gui/menu/campaign_prev/mp_deathmatch_prev : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/menu/biomes_prev/metallic_prev.dds
+}
+
+material gui/menu/mission_prev/mp_jungle_arena_01_prev : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/menu/biomes_prev/jungle_prev.dds
+}
+
+material gui/menu/mission_prev/mp_metallic_alien_base_prev : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/menu/biomes_prev/metallic_prev.dds
+}
+
+material gui/menu/mission_prev/mp_magma_lakes_prev : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/menu/biomes_prev/magma_prev.dds
+}

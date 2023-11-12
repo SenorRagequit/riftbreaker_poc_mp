@@ -1,0 +1,2 @@
+set camera/game/render_flags "8"
+set camera/perspective/render_flags "0"

@@ -1,0 +1,26 @@
+import * from "materials/scripts/pbr.material"
+
+material items/consumables/ammo_mech_liquid_icon_bigger : pbr/default
+{
+	set_texture_alias albedo			materials/textures/gui/hud/resource_icons/ammo_mech_liquid_icon_bigger.dds
+}
+
+material items/consumables/ammo_mech_low_caliber_icon_bigger : pbr/default
+{
+	set_texture_alias albedo			materials/textures/gui/hud/resource_icons/ammo_mech_low_caliber_icon_bigger.dds
+}
+
+material items/consumables/ammo_mech_explosive_icon_bigger : pbr/default
+{
+	set_texture_alias albedo			materials/textures/gui/hud/resource_icons/ammo_mech_explosive_icon_bigger.dds
+}
+
+material items/consumables/ammo_mech_energy_icon_bigger : pbr/default
+{
+	set_texture_alias albedo			materials/textures/gui/hud/resource_icons/ammo_mech_energy_icon_bigger.dds
+}
+
+material items/consumables/ammo_mech_high_caliber_icon_bigger : pbr/default
+{
+	set_texture_alias albedo			materials/textures/gui/hud/resource_icons/ammo_mech_high_caliber_icon_bigger.dds
+}

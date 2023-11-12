@@ -1,0 +1,700 @@
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_low_caliber_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_mech_low_caliber"
+		icon					"gui/hud/resource_icons/ammo_mech_low_caliber_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_low_caliber_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_low_caliber"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_mech_low_caliber"
+			amount				float:"5"
+		}
+	}
+
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_low_caliber"
+
+    MeshDesc
+    {
+        mesh 		"meshes/decal_cube.mesh"
+		material 	"items/consumables/ammo_mech_low_caliber_icon_bigger"
+    }
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_low_caliber_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_bullet/sniper_rifle_equipped"							
+				}
+			}
+		}	
+	}		
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_liquid_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_mech_liquid"
+		icon					"gui/hud/resource_icons/ammo_mech_liquid_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_liquid_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_liquid"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_mech_liquid"
+			amount				float:"5"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_fluid/equipped_fluid_weapon"							
+				}
+			}
+		}	
+	}
+}
+
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_liquid"
+
+    MeshDesc
+    {
+        mesh 		"meshes/decal_cube.mesh"
+		material 	"items/consumables/ammo_mech_liquid_icon_bigger"
+    }
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_liquid_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+                size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_explosive_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_mech_explosive"
+		icon					"gui/hud/resource_icons/ammo_mech_explosive_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_explosive_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_explosive"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_mech_explosive"
+			amount				float:"5"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_explosive/equipped_explosive_weapon"							
+				}
+			}
+		}	
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_explosive"
+
+    MeshDesc
+    {
+        mesh 		"meshes/decal_cube.mesh"
+		material 	"items/consumables/ammo_mech_explosive_icon_bigger"
+    }
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_explosive_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+                size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_energy_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_mech_energy"
+		icon					"gui/hud/resource_icons/ammo_mech_energy_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_energy_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_energy"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_mech_energy_cell"
+			amount				float:"5"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_energy/blaster_equipped"							
+				}
+			}
+		}	
+	}
+}
+
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_energy"
+
+    MeshDesc
+    {
+        mesh 		"meshes/decal_cube.mesh"
+		material 	"items/consumables/ammo_mech_energy_icon_bigger"
+    }
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_energy_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+
+}
+
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_high_caliber_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_mech_high_caliber"
+		icon					"gui/hud/resource_icons/ammo_mech_high_caliber_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_high_caliber_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_high_caliber"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_mech_high_caliber"
+			amount				float:"5"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_bullet/sniper_rifle_equipped"							
+				}
+			}
+		}	
+	}
+}
+
+
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_high_caliber"
+
+    MeshDesc
+    {
+        mesh 		"meshes/decal_cube.mesh"
+		material 	"items/consumables/ammo_mech_high_caliber_icon_bigger"
+    }
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_high_caliber_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+
+}
+
+//////////////// DEDICATED WEAPON AMMUNITION //////////////////
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_bouncing_blades_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_dm_bouncing_blades"
+		icon					"gui/hud/resource_icons/ammo_mech_high_caliber_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_high_caliber_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_bouncing_blades"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_dm_bouncing_blades"
+			amount				float:"15"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_bullet/bouncing_blades_equipped"							
+				}
+			}
+		}	
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_bouncing_blades"
+
+	MeshDesc
+	{
+		mesh 		"meshes/items/weapons/bouncing_blades.mesh"
+		material 	"items/weapons/bouncing_blades"
+	}
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_high_caliber_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+
+}
+
+////////////////////////////
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_minigun_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_dm_minigun"
+		icon					"gui/hud/resource_icons/ammo_mech_low_caliber_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_low_caliber_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_minigun"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_dm_minigun"
+			amount				float:"125"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_bullet/minigun_equipped"					
+				}
+			}
+		}	
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_minigun"
+
+	MeshDesc
+	{
+		mesh 		"meshes/items/weapons/minigun.mesh"
+		material 	"items/weapons/minigun"
+	}
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_low_caliber_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+}
+
+////////////////////////////
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_grenade_launcher_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_dm_grenade_launcher"
+		icon					"gui/hud/resource_icons/ammo_mech_explosive_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_explosive_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_grenade_launcher"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_dm_grenade_launcher"
+			amount				float:"10"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_explosive/equipped_explosive_weapon"					
+				}
+			}
+		}	
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_grenade_launcher"
+
+	MeshDesc
+	{
+		mesh 		"meshes/items/weapons/grenade_launcher.mesh"
+		material 	"items/weapons/grenade_launcher"
+	}
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_explosive_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+}
+
+////////////////////////////
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_railgun_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_dm_railgun"
+		icon					"gui/hud/resource_icons/ammo_mech_energy_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_energy_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_railgun"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_dm_railgun"
+			amount				float:"5"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_energy/railgun_equipped"					
+				}
+			}
+		}	
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_railgun"
+
+	MeshDesc
+	{
+		mesh 		"meshes/items/weapons/railgun.mesh"
+		material 	"items/weapons/railgun"
+	}
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_energy_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+}
+
+////////////////////////////
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_acid_spitter_item"
+
+	InventoryItemDesc
+	{
+		type 					"consumable"
+		name 					"resource_name/ammo_dm_acid_spitter"
+		icon					"gui/hud/resource_icons/ammo_mech_liquid_icon"
+		bigger_icon 			"gui/hud/resource_icons/ammo_mech_liquid_icon_bigger"		
+		description 			"gui/menu/inventory/consumable_description/ammo_dm"	
+		item_bp		            "items/consumables/ammo_dm_acid_spitter"
+	}
+
+	LuaDesc
+	{
+		script "lua/items/consumables/ammo_dm.lua"
+		
+		database
+		{
+            resource            string:"ammo_dm_acid_spitter"
+			amount				float:"25"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "loot_collect"
+			enabled "0"		
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/weapons_fluid/spitter_equipped"					
+				}
+			}
+		}	
+	}
+}
+
+EntityBlueprint
+{ 
+	name "items/consumables/ammo_dm_acid_spitter"
+
+	MeshDesc
+	{
+		mesh 		"meshes/items/weapons/spitter.mesh"
+		material 	"items/weapons/spitter_acid_basic"
+	}
+
+	MinimapItemDesc
+	{
+		type			"image"
+		icon_material 	"gui/hud/resource_icons/ammo_mech_liquid_icon"
+		clamp_mode		"1"
+		visibility		"always"	
+		additional_z_order	"15"
+        size
+        {
+            x "0.5"
+            y "0.5"
+        }
+	}	
+}
